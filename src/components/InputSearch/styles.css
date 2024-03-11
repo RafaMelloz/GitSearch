@@ -42,3 +42,10 @@
     background-color: #0066ffa6;
 
 }
+
+
+@media screen and (max-width:500px) {
+    .groupInput {
+        width: 80%;
+    }
+}
