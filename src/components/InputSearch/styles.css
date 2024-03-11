@@ -1,0 +1,44 @@
+.groupInput{
+    width: 100%;
+    max-width: 50rem;
+    position: relative;
+    margin: 2rem 0;
+
+}
+
+
+.groupInput input{
+    color: white;
+    width: 100%;
+
+    background-color: transparent;
+    border: 0.1rem solid rgb(156, 156, 156);
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.groupInput button{
+    position: absolute;
+    height: 100%;
+    right: 0;
+    border-top-right-radius:0.5rem ;
+    border-bottom-right-radius:0.5rem ;
+    border: none;
+    background-color: #0066ff;
+    color: white;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
+.groupInput  button span{
+    display: flex;
+}
+
+.groupInput  button span svg{
+    margin-left: 1rem;
+}
+
+.groupInput button:focus{
+    background-color: #0066ffa6;
+
+}
